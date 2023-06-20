@@ -6,25 +6,39 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
+    <script src="./js/geral.js" defer></script>
+
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
             <ul class="lista-nav">
-                <li><img src="./img/medida.png" alt=""></li>
-                <li><img src="./img/peso.png" alt=""></li>
-                <li><img src="./img/temperatura.png" alt=""></li>
+                <li><img src="./img/medida.png" alt="Imagem representando medidas" id="pagMedida"></li>
+                <li><img src="./img/peso.png" alt="Imagem representando pesos" id="pagPeso"></li>
+                <li><img src="./img/temperatura.png" alt="Imagem representando temperaturas" id="pagTemperatura"></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
             <form class="formulario">
-                <label for="">aaaaaaa</label>
-                <label for="">aaaaaaa</label>
-                <label for="">aaaaaaa</label>
-                <label for="">aaaaaaaaaaaa</label>
+                <h2>Conversor</h2>
+                <label for="selecao">Selecione a unidade inicial:</label>
+                <select name="selecao" id="selecao">
+                    <option value="1">Metros</option>
+                    <option value="2">Centímetros</option>
+                    <option value="3">Polegadas</option>
+                </select>
+                <input type="text" name="valor-inicial" id="" class="valor-inicial">
+                <label for="selecao">Selecione a unidade final:</label>
+                <select name="selecaoFinal" id="selecaoFinal">
+                    <option value="1">Metros</option>
+                    <option value="2">Centímetros</option>
+                    <option value="3">Polegadas</option>
+                </select>
+                <label>Resposta:</label>
+                <input type="submit" value="Converter">
             </form>
         </section>
     </main>
