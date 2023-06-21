@@ -32,9 +32,15 @@ nav {
     align-items: center;
 }
 
+.lista-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lista-nav li img {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 15%;
+    max-height: 15%;
     width: auto;
     height: auto;
     cursor: pointer;
