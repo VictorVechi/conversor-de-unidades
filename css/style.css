@@ -17,7 +17,7 @@ header {
 }
 
 .lista-nav {
-    height: 80px;
+    height: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -60,10 +60,16 @@ section {
     align-items: center;
     width: 20%;
     height: 50%;
-    background-color: #ffffff10;
-    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.133);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
 }
+
+/* .formulario h2 {
+    justify-self: flex-start;
+} */
 
 footer {
     width: 100%;
