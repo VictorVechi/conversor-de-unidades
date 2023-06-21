@@ -1,0 +1,29 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+   
+    .lista-nav li img {
+        max-width: 35%;
+        max-height: 35%;
+    }
+    
+    .formulario {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:800px) {
+    .lista-nav li img {
+        max-width: 23%;
+        max-height: 23%;
+    }
+    
+    .formulario {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1366px) {
+    .lista-nav li img {
+        max-width: 15%;
+        max-height: 15%;
+    }
+}
