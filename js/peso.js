@@ -4,6 +4,8 @@ function converterPeso() {
     let valor = Number(document.getElementById("valor-inicial").value)
     let resposta = document.getElementById("resultado")
 
+    valor = removerVirgula(valor)
+
     if (medidaOriginal == medidaConvertida) {
         resposta.innerHTML = `Resposta: ${valor}`
     } else if (medidaOriginal == 1 && medidaConvertida == 2) {
