@@ -1,7 +1,7 @@
 function converterPeso() {
     let medidaOriginal = document.getElementById("selecao").value
     let medidaConvertida = document.getElementById("selecaoFinal").value
-    let valor = Number(document.getElementById("valor-inicial").value)
+    let valor = String(document.getElementById("valor-inicial").value)
     let resposta = document.getElementById("resultado")
 
     valor = removerVirgula(valor)
