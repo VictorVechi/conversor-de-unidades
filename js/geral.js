@@ -43,3 +43,12 @@ evento.addEventListener("click", function (event) {
         converterTemperatura()
     }
 })
+
+function removerVirgula(valor){
+    if(valor.indexOf(",") != -1){
+        valor = valor.replace(",", ".")
+        return Number(valor)
+    } else {
+        return Number(valor)
+    }
+}
