@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Link do css geral e da media para responsividade -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
 
+    <!-- Link dos scripts com conversão e manipulação da página -->
     <script src="./js/geral.js" defer></script>
     <script src="./js/comprimento.js" defer></script>
     <script src="./js/peso.js" defer></script>
@@ -14,7 +17,9 @@
 
     <title>Conversor de Unidades</title>
 </head>
+
 <body>
+    <!-- Início do Header -->
     <header>
         <nav>
             <ul class="lista-nav">
@@ -24,30 +29,45 @@
             </ul>
         </nav>
     </header>
+    <!-- Fim do Header -->
+
+    <!-- Início da Main -->
     <main>
+        <!-- Iníco da Section -->
         <section>
+            <!-- Início do Formulário -->
             <form class="formulario">
                 <h2>Conversor</h2>
                 <label for="selecao">Selecione a unidade inicial:</label>
+                <!-- Tag para exibir mais de uma opção -->
                 <select name="selecao" id="selecao">
                     <option value="1" class="unidade1">Metros</option>
                     <option value="2" class="unidade2">Centímetros</option>
                     <option value="3" class="unidade3">Polegadas</option>
                 </select>
-                <input type="text" name="valor-inicial" id="valor-inicial" class="valor-inicial" placeholder="Insira o valor">
+                <input type="text" name="valor-inicial" id="valor-inicial" class="valor-inicial"
+                    placeholder="Insira o valor">
                 <label for="selecao">Selecione a unidade final:</label>
+                <!-- Tag para exibir mais de uma opção -->
                 <select name="selecaoFinal" id="selecaoFinal">
                     <option value="1" class="unidade1">Metros</option>
                     <option value="2" class="unidade2">Centímetros</option>
                     <option value="3" class="unidade3">Polegadas</option>
                 </select>
                 <label id="resultado">Resposta:</label>
-                <input type="submit" value="Converter" class="botao" id="enviar"/>
+                <!-- Botão de envio do formulário -->
+                <input type="submit" value="Converter" class="botao" id="enviar" />
             </form>
+            <!-- Fim do formulário -->
         </section>
+        <!-- Fim da Section -->
     </main>
+    <!-- Fim da main -->
+    <!-- Início do footer -->
     <footer>
         <a href="https://www.instagram.com/victorh_vechi/">Desenvolvido por &copy;Victor Vechi</a>
     </footer>
+    <!-- Fim do footer -->
 </body>
+
 </html>
