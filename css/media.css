@@ -1,3 +1,5 @@
+
+/* Media para celulares */
 @media screen and (min-width:320px) and (max-width:767px) {
    
     .lista-nav li img {
@@ -10,6 +12,7 @@
     }
 }
 
+/* Media para tablets */
 @media screen and (min-width:768px) and (max-width:800px) {
     .lista-nav li img {
         max-width: 23%;
@@ -21,6 +24,7 @@
     }
 }
 
+/* Media para telas de notebooks ou menores */
 @media screen and (min-width:801px) and (max-width:1366px) {
     .lista-nav li img {
         max-width: 15%;

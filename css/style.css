@@ -1,5 +1,7 @@
+/* Importação da fonte utilizada */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
 
+/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     font-family: 'Roboto Slab', serif;
 }
 
+/* Reset CSS */
 html,
 body {
     margin: 0;
@@ -14,130 +17,214 @@ body {
     height: 100%;
 }
 
+/* Estilos para o elemento <header> */
 header {
     width: 100%;
+    /* Define a largura como 100% */
     height: 10%;
+    /* Define a altura como 10% */
     background-color: #fff;
+    /* Define a cor de fundo como branco (#fff) */
 }
 
+/* Estilos para o elemento <nav> */
 nav {
     height: 100%;
+    /* Define a altura como 100% */
 }
 
+/* Estilos para a lista de navegação */
 .lista-nav {
     height: 100%;
+    /* Define a altura como 100% */
     list-style: none;
+    /* Remove os marcadores da lista */
     display: flex;
+    /* Aplica um layout flexível */
     justify-content: space-around;
+    /* Distribui o espaço igualmente entre os itens */
     align-items: center;
+    /* Alinha verticalmente os itens ao centro */
 }
 
+/* Estilos para cada item da lista de navegação */
 .lista-nav li {
     display: flex;
+    /* Aplica um layout flexível */
     justify-content: center;
+    /* Alinha horizontalmente o conteúdo ao centro */
     align-items: center;
+    /* Alinha verticalmente o conteúdo ao centro */
 }
 
+/* Estilos para as imagens dentro dos itens da lista de navegação */
 .lista-nav li img {
     max-width: 15%;
+    /* Define a largura máxima como 15% */
     max-height: 15%;
+    /* Define a altura máxima como 15% */
     width: auto;
+    /* Ajusta automaticamente a largura */
     height: auto;
+    /* Ajusta automaticamente a altura */
     cursor: pointer;
+    /* Altera o cursor do mouse para um ponteiro */
     padding: 2px;
+    /* Adiciona um preenchimento interno de 2 pixels */
     transition: 0.5s;
+    /* Adiciona uma transição suave de 0.5 segundos */
 }
 
+/* Estilos para as imagens quando o mouse está em cima delas */
 .lista-nav li img:hover {
     scale: 1.2;
+    /* Aplica uma escala de 1.2 às imagens */
 }
 
+/* Estilos para o elemento <main> */
 main {
     height: 84%;
+    /* Define a altura como 84% */
     background-image: url(../img/background.jpg);
+    /* Define a imagem de fundo */
     background-size: cover;
+    /* Redimensiona a imagem para cobrir todo o elemento */
     background-position: center;
+    /* Centraliza a imagem de fundo */
     background-repeat: no-repeat;
+    /* Impede a repetição da imagem */
     background-attachment: fixed;
+    /* Fixa a imagem de fundo durante o scroll */
 }
 
+/* Estilos para o elemento <section> */
 section {
     width: 100%;
+    /* Define a largura como 100% */
     height: 100%;
+    /* Define a altura como 100% */
     display: flex;
+    /* Aplica um layout flexível */
     justify-content: center;
+    /* Alinha horizontalmente ao centro */
     align-items: center;
+    /* Alinha verticalmente ao centro */
 }
 
+/* Estilos para a classe .formulario */
 .formulario {
     display: flex;
+    /* Aplica um layout flexível */
     flex-direction: column;
+    /* Define a direção dos elementos como coluna */
     justify-content: center;
+    /* Alinha verticalmente ao centro */
     align-items: center;
+    /* Alinha horizontalmente ao centro */
     width: 20%;
+    /* Define a largura como 20% */
     height: 50%;
+    /* Define a altura como 50% */
     background-color: rgba(255, 255, 255, 0.133);
+    /* Define uma cor de fundo com transparência */
     border: 1px solid #fff;
+    /* Define uma borda de 1 pixel sólida de cor branca */
     backdrop-filter: blur(3px);
+    /* Aplica um desfoque ao fundo */
     -webkit-backdrop-filter: blur(12px);
+    /* Aplica um desfoque específico para navegadores WebKit */
     box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+    /* Adiciona uma sombra ao elemento */
     color: black;
+    /* Define a cor do texto como preto */
 }
 
+/* Estilos para o elemento <h2> dentro de .formulario */
 .formulario h2 {
     background-color: rgba(0, 0, 0, 0.500);
+    /* Define uma cor de fundo com transparência */
     color: #fff;
+    /* Define a cor do texto como branco */
     border-radius: 8px;
+    /* Define um raio de borda de 8 pixels */
     padding: 6px;
+    /* Adiciona um preenchimento interno de 6 pixels */
     font-weight: 300;
+    /* Define a espessura da fonte como 300 (light) */
     transition: 0.5s;
+    /* Adiciona uma transição suave de 0.5 segundos */
 }
 
+/* Estilos para o elemento <h2> dentro de .formulario quando o mouse está em cima */
 .formulario h2:hover {
     background-color: #FFFFFF;
+    /* Define a cor de fundo como branco */
     color: #237cce;
-    /* Define um raio de borda personalizado */
-    border-radius: 35px 10em 0%;
-
+    /* Define a cor do texto como azul claro */
 }
 
+/* Estilos para o elemento <select> */
 select {
     text-align: center;
+    /* Centraliza o texto dentro do <select> */
     background-color: transparent;
+    /* Define a cor de fundo como transparente */
     border: 1px solid #FFFFFF;
+    /* Define uma borda de 1 pixel sólida de cor branca */
     color: black;
+    /* Define a cor do texto como preto */
     margin: 2px;
+    /* Define uma margem de 2 pixels */
     transition: 0.5s;
+    /* Adiciona uma transição suave de 0.5 segundos */
 }
 
+/* Estilos para o elemento <select> quando o mouse está em cima */
 select:hover {
     background-color: #FFFFFF;
+    /* Define a cor de fundo como branco */
     border: 1px solid #237cce;
+    /* Define uma borda de 1 pixel sólida de cor azul claro */
     color: #237cce;
+    /* Define a cor do texto como azul claro */
     /* Define um raio de borda personalizado */
     border-radius: 35px 10em 0%;
 }
 
+/* Estilos para o elemento <input> */
 input {
     background-color: rgba(0, 0, 0, 0.300);
+    /* Define a cor de fundo com transparência */
     color: white;
+    /* Define a cor do texto como branco */
     border: 1px solid #fff;
+    /* Define uma borda de 1 pixel sólida de cor branca */
     margin: 10px;
+    /* Define uma margem de 10 pixels */
     font-weight: 500;
+    /* Define a espessura da fonte como 500 (medium) */
     border-radius: 5px;
+    /* Define um raio de borda de 5 pixels */
     transition: 0.5s;
+    /* Adiciona uma transição suave de 0.5 segundos */
     text-align: center;
+    /* Centraliza o texto dentro do <input> */
 }
 
+/* Estilos para o elemento <input> quando o mouse está em cima */
 input:hover {
     background-color: transparent;
+    /* Define a cor de fundo como transparente */
     color: #237cce;
+    /* Define a cor do texto como azul claro */
 }
 
+/* Estilos para o seletor de espaço reservado (::placeholder) */
 ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
+    /* Define a cor do espaço reservado como branco */
     font-weight: 100;
+    /* Define a espessura da fonte como 100 (thin) */
 }
 
 /* Define as propriedades para a classe .botao */
@@ -161,16 +248,24 @@ input:hover {
     border-radius: 35px 10em 0%;
 }
 
+/* Estilos para o elemento <footer> */
 footer {
     width: 100%;
+    /* Define a largura como 100% */
     height: 6%;
+    /* Define a altura como 6% */
     display: flex;
+    /* Aplica um layout flexível */
     align-items: center;
+    /* Alinha verticalmente ao centro */
     justify-content: center;
-    
+    /* Alinha horizontalmente ao centro */
 }
 
-a {
+/* Estilos para os links dentro do elemento <footer> */
+footer a {
     text-decoration: none;
+    /* Remove a decoração de texto (sublinhado) */
     color: black;
+    /* Define a cor do texto como preto */
 }
