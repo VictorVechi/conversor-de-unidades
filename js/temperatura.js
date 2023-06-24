@@ -3,7 +3,7 @@ function converterTemperatura() {
 
     let medidaOriginal = document.getElementById("selecao").value
     let medidaConvertida = document.getElementById("selecaoFinal").value
-    let valor = Number(document.getElementById("valor-inicial").value)
+    let valor = String(document.getElementById("valor-inicial").value)
     let resposta = document.getElementById("resultado")
 
     // Removendo a vírgula e substituindo por ponto
