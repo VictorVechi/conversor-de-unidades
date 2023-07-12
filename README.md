@@ -18,7 +18,7 @@ Foi utilizado no projeto as stacks a seguir:
 ## Como clonar o projeto
 ```bash
 # Clone este repositório
-$ git clone https://github.com/VictorVechi/tomorrows-code.git](https://github.com/VictorVechi/conversor-de-unidades.git
+$ git clone https://github.com/VictorVechi/conversor-de-unidades.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd Conversor-de-Unidades
