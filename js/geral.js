@@ -45,14 +45,21 @@ temperatura.addEventListener("click", function () {
 //Evento para converter as medidas
 evento.addEventListener("click", function (event) {
     event.preventDefault()
-    if (botaoSeletor == 1) {
-        converterComprimento()
-    }
-    if (botaoSeletor == 2) {
-        converterPeso()
-    }
-    if (botaoSeletor == 3) {
-        converterTemperatura()
+
+    let valor = document.getElementById("valor-inicial").value
+
+    if (valor == "") {
+        alert("Digite um valor para ser convertido")
+    } else {
+        if (botaoSeletor == 1) {
+            converterComprimento()
+        }
+        if (botaoSeletor == 2) {
+            converterPeso()
+        }
+        if (botaoSeletor == 3) {
+            converterTemperatura()
+        }
     }
 })
 
